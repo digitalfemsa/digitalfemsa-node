@@ -1,0 +1,37 @@
+{
+  "npmName": "digitalfemsa",
+  "generateSourceCodeOnly": "false",
+  "npmVersion": "1.0.0",
+  "packageUrl": "https://developers.digitalfemsa.com/",
+  "projectName": "digitalfemsa-node",
+  "appDescription": "DigitalFemsa Node Library",
+  "useOneOfDiscriminatorLookup": true,
+  "nonCompliantUseDiscriminatorIfCompositionFails": false,
+  "httpUserAgent": "App/v2 NodeBindings",
+  "files": {
+    "/local/CODE_OF_CONDUCT.md": {},
+    "/local/LICENSE": {},
+    "/local/CONTRIBUTING.md" : {},
+    "VERSION.mustache" : {
+      "templateType": "SupportingFiles",
+      "destinationFilename": "VERSION"
+    }
+  },
+  "gitUserId": "digitalfemsa",
+  "gitRepoId": "digitalfemsa-node",
+  "modern": true,
+  "disallowAdditionalPropertiesIfNotPresent": true,
+  "invokerPackage": "DigitalFemsa",
+  "useObjectParameters": true,
+  "npmRepository": "https://www.npmjs.com/package/digitalfemsa",
+  "supportsES6": true,
+  "legacyDiscriminatorBehavior": true,
+  "modelPackage" : "model",
+  "apiPackage" : "api",
+  "withSeparateModelsAndApi": true,
+  "withInterfaces" :true,
+  "templateDir": "/local/templates/node",
+  "enumPropertyNaming" : "camelCase",
+  "paramNaming" : "camelCase",
+  "apiVersion" :"application/vnd.app-v2.1.0+json"
+}
